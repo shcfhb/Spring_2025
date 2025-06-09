@@ -1,0 +1,60 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    front-weight: 400;
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+.wrapper {
+    width: 100%
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    padding: 50px 0;
+
+}
+header . food {
+    text-transform: uppercase;
+    front-size: 29px;
+    front-weight: 800;
+}
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a {
+    color: #fff 
+}
+header nav ul li: not(.active):not(.btn) a:hover{
+    border-bottom: 5px solid #DC7000;
+}
+
+hero--info h2 {
+    front-size: 20px;
+    front-weight: 600;
+}
+
+hero--info h1 {
+    front-size: 50px;
+    front-weight: 600;
+}
